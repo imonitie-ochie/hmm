@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom-based Chatbot</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="path/to/your/styles.css"> <!-- Replace with actual path -->
+    <script>
+        async function getDiagnosis() {
+            const symptomInput = document.getElementById("symptom").value;
+            if (!symptomInput) {
+                document.getElementById("result").innerText = "Please enter a symptom.";
+                return;
+            }
+
+            try {
+                const response = await fetch("/predict", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ "symptom": symptomInput })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to get a valid response from the server');
+                }
+
+                const data = await response.json();
+                document.getElementById("result").innerText = "Predicted Illness: " + data.predicted_illness;
+            } catch (error) {
+                document.getElementById("result").innerText = "Error: " + error.message;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Symptom-based Illness Prediction</h1>
+        <input type="text" id="symptom" placeholder="Enter symptom" />
+        <button onclick="getDiagnosis()">Get Diagnosis</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>

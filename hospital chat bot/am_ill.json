@@ -1,0 +1,308 @@
+{
+    "illnesses": [
+      {
+        "illness": "flu",
+        "symptoms": [
+          "fever",
+          "headache",
+          "fatigue",
+          "cough",
+          "sore throat",
+          "muscle aches",
+          "chills"
+        ]
+      },
+      {
+        "illness": "cold",
+        "symptoms": [
+          "cough",
+          "sore throat",
+          "nasal congestion",
+          "runny nose",
+          "sneezing",
+          "mild fatigue"
+        ]
+      },
+      {
+        "illness": "COVID-19",
+        "symptoms": [
+          "fever",
+          "fatigue",
+          "cough",
+          "shortness of breath",
+          "sore throat",
+          "headache",
+          "loss of taste or smell",
+          "muscle aches"
+        ]
+      },
+      {
+        "illness": "malaria",
+        "symptoms": [
+          "fever",
+          "chills",
+          "headache",
+          "muscle aches",
+          "fatigue",
+          "sweating",
+          "nausea"
+        ]
+      },
+      {
+        "illness": "migraine",
+        "symptoms": [
+          "headache",
+          "nausea",
+          "vomiting",
+          "sensitivity to light",
+          "sensitivity to sound"
+        ]
+      },
+      {
+        "illness": "pneumonia",
+        "symptoms": [
+          "cough",
+          "fever",
+          "shortness of breath",
+          "chest pain",
+          "fatigue",
+          "nausea",
+          "muscle aches"
+        ]
+      },
+      {
+        "illness": "chronic bronchitis",
+        "symptoms": [
+          "cough",
+          "shortness of breath",
+          "fatigue",
+          "wheezing",
+          "chest discomfort",
+          "sputum production"
+        ]
+      },
+      {
+        "illness": "gastroenteritis",
+        "symptoms": [
+          "nausea",
+          "vomiting",
+          "diarrhea",
+          "abdominal pain",
+          "fever",
+          "headache"
+        ]
+      },
+      {
+        "illness": "asthma",
+        "symptoms": [
+          "shortness of breath",
+          "wheezing",
+          "chest tightness",
+          "cough",
+          "fatigue"
+        ]
+      },
+      {
+        "illness": "stroke",
+        "symptoms": [
+          "headache",
+          "dizziness",
+          "nausea",
+          "difficulty speaking",
+          "vision problems",
+          "numbness or weakness in the face, arm, or leg"
+        ]
+      },
+      {
+        "illness": "anemia",
+        "symptoms": [
+          "fatigue",
+          "weakness",
+          "shortness of breath",
+          "pale skin",
+          "dizziness",
+          "headache",
+          "cold hands and feet"
+        ]
+      },
+      {
+        "illness": "gallstones",
+        "symptoms": [
+          "abdominal pain",
+          "nausea",
+          "vomiting",
+          "fever",
+          "jaundice"
+        ]
+      },
+      {
+        "illness": "liver disease",
+        "symptoms": [
+          "abdominal pain",
+          "fatigue",
+          "nausea",
+          "vomiting",
+          "jaundice",
+          "loss of appetite",
+          "dark urine"
+        ]
+      },
+      {
+        "illness": "irritable bowel syndrome (IBS)",
+        "symptoms": [
+          "abdominal pain",
+          "bloating",
+          "diarrhea",
+          "constipation",
+          "fatigue"
+        ]
+      },
+      {
+        "illness": "depression",
+        "symptoms": [
+          "fatigue",
+          "loss of appetite",
+          "headache",
+          "muscle aches",
+          "trouble sleeping",
+          "irritability",
+          "sadness"
+        ]
+      },
+      {
+        "illness": "gallbladder disease",
+        "symptoms": [
+          "abdominal pain",
+          "nausea",
+          "vomiting",
+          "fever",
+          "dark urine",
+          "jaundice"
+        ]
+      },
+      {
+        "illness": "lymphoma",
+        "symptoms": [
+          "swollen lymph nodes",
+          "fever",
+          "night sweats",
+          "unexplained weight loss",
+          "fatigue",
+          "itching"
+        ]
+      },
+      {
+        "illness": "pneumothorax",
+        "symptoms": [
+          "sharp chest pain",
+          "shortness of breath",
+          "fatigue",
+          "cough"
+        ]
+      },
+      {
+        "illness": "urinary tract infection (UTI)",
+        "symptoms": [
+          "painful urination",
+          "frequent urination",
+          "blood in urine",
+          "abdominal pain",
+          "fatigue"
+        ]
+      },
+      {
+        "illness": "hypothyroidism",
+        "symptoms": [
+          "fatigue",
+          "weight gain",
+          "cold intolerance",
+          "constipation",
+          "dry skin",
+          "hair loss"
+        ]
+      }
+    ],
+    "symptoms": [
+      {
+        "symptom": "fever",
+        "illnesses": [
+          "flu",
+          "cold",
+          "COVID-19",
+          "malaria",
+          "tuberculosis",
+          "dengue",
+          "pneumonia",
+          "sepsis"
+        ]
+      },
+      {
+        "symptom": "headache",
+        "illnesses": [
+          "migraine",
+          "tension headache",
+          "cluster headache",
+          "flu",
+          "COVID-19",
+          "sinusitis",
+          "brain tumor",
+          "stroke"
+        ]
+      },
+      {
+        "symptom": "cough",
+        "illnesses": [
+          "cold",
+          "flu",
+          "COVID-19",
+          "pneumonia",
+          "asthma",
+          "chronic bronchitis",
+          "allergies",
+          "lung cancer",
+          "tuberculosis"
+        ]
+      },
+      {
+        "symptom": "fatigue",
+        "illnesses": [
+          "COVID-19",
+          "flu",
+          "chronic fatigue syndrome",
+          "anemia",
+          "hypothyroidism",
+          "depression",
+          "sleep apnea",
+          "fibromyalgia"
+        ]
+      },
+      {
+        "symptom": "shortness of breath",
+        "illnesses": [
+          "asthma",
+          "COVID-19",
+          "pneumonia",
+          "heart failure",
+          "COPD",
+          "pulmonary embolism",
+          "anxiety",
+          "anemia"
+        ]
+      },
+      {
+        "symptom": "nausea",
+        "illnesses": [
+          "gastroenteritis",
+          "food poisoning",
+          "migraine",
+          "pregnancy",
+          "appendicitis",
+          "gallstones",
+          "liver disease",
+          "kidney failure",
+          "motion sickness"
+        ]
+      }
+    ]
+  }
+  
